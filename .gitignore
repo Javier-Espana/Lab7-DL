@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Modelos y datos pesados (subir por separado o mediante enlace)
+models/
+data/
+*.bin
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Archivos de cache de datasets de HuggingFace
+~/.cache/huggingface/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliares
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.synctex.gz
+docs/*.fls
+docs/*.fdb_latexmk
+
+# Archivos grandes de vectores (enlace en el informe)
+*.txt.gz
